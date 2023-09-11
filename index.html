@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="card">
+
+  <div class="container">
+    <div class="buttonsForm">
+      <div class="btnCor"></div>
+      <button id="btnLogin">Login</button>
+      <button id="btnCadastro">Cadastre-se</button>
+    </div>
+
+    <form id="login">
+      <input type="text" placeholder="E-mail" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" placeholder="Senha" required />
+      <i class="fas fa-lock iPassword"></i>
+      <button type="submit">Acessar</button>
+    </form>
+
+    <form id="cadastro">
+      <input type="text" id="username" placeholder="Nome" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="text" id="email" placeholder="E-mail" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" id="password" placeholder="Senha" required />
+      <i class="fas fa-lock iPassword"></i>
+      <input type="password" id="pasword2" placeholder="Confirme sua senha" required />
+      <i class="fas fa-lock iPassword2"></i>
+      <button type="submit">Cadastre-se</button>
+    </form>
+
+    <div class="error-message"></div>
+    
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
